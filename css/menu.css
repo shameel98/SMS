@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+.menubox
+{
+	height: 50px;
+	width: 550px;
+	margin-left: 380px;
+}
+.menubutton
+{
+	height: 30px;
+	width: 110px;
+	border: solid #FFFFFF;
+	margin-left: 20px;
+	margin-top: 2px;
+	text-align: center;
+	padding-top: 10px;
+	float: left;
+	color: #fff;
+	border-radius: 40px;
+	transition: all 1s ease-out;
+}
+a
+{
+	color: inherit;
+}
+.menubutton:hover
+{
+	height: 30px;
+	width: 110px;
+	border: solid #808080;
+	margin-left: 20px;
+	margin-top: 2px;
+	text-align: center;
+	padding-top: 10px;
+	float: left;
+	color: #000000;
+	border-radius: 40px;
+	background:url(../images/patterns/sat.png);
+	transition: all 1s ease-in;
+}
+.lgn
+{
+	color:white;width:100px;height:35px;margin-left:10px;border:solid;padding:5px;border-radius:5px;text-align:center;text-transform:uppercase;
+}
+.lgnreg
+{
+	color:white;border-bottom:solid;width:100px;text-align:center;font-weight:bolder;margin-left:10px;
+}
+.lgt
+{
+	height: 60px;
+	width: 60px;
+	color:white;
+	border: double;
+	border-radius: 50%;
+	float: right;
+	margin-right:15px;
+	text-align: center;
+	background:url(../images/logo/logout.png);
+}
+.hdr
+{
+	height: 70px;
+	width: 100%;
+}

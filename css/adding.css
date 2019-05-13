@@ -1,0 +1,119 @@
+@charset "utf-8";
+.wrapper
+{
+	height: 1910px;
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+}
+.sub-wrapper
+{
+	height: 400px;
+	width: 1200px;
+	border: solid #FFFFFF;
+	margin-top:10px;
+	margin-left: 80px;
+}
+.text1
+{
+	height: 20px;
+	width: 200px;
+	margin:5px; 
+	text-align: center;
+	font-weight: bolder;
+}
+.text2
+{
+	height: 20px;
+	width: 100px;
+	margin:5px; 
+	text-align: center;
+	border-radius: 10px;
+	background: black;
+	border: none;
+	color: white;
+	font-weight: bolder;
+}
+.info
+{
+	height:300px;
+	width: 200px;
+	float: right;
+	text-align: center;
+	color: white;
+	margin: 5px;
+	margin-top: 100px;
+}
+.text3
+{
+	height: 20px;
+	width: 50px;
+	margin:5px; 
+	text-align: center;
+	border-radius: 10px;
+	background: black;
+	border: none;
+	color: white;
+	font-weight: bolder;
+}
+.sub_but
+{
+	height: 40px;
+	width: 100px;
+	border: solid #0264AB;
+	margin-top: 10px;
+	margin-left: 3px;
+	text-align: center;
+	padding: 10px;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-radius: 5px;
+	transition: 0.5s ease-out;
+	background: none;
+	color:#FFFFFF;
+	font-size: 16px;
+}
+.sub_but:hover
+{
+	height: 40px;
+	width: 100px;
+	border: solid #FFFFFF;
+	margin-top: 10px;
+	margin-left: 3px;
+	text-align: center;
+	padding: 10px;
+	border-right-color: #0264AB;
+	border-left-color: #0264AB;
+	border-radius: 50px;
+	transition: all 0.5s linear;
+	background: #0264AB;
+}
+
+.txtsmall
+{
+	height: 25px;
+	width: 40px;
+	text-align: center;
+	font-weight: bolder;
+	background: white;
+}
+.header
+{
+	margin-left: 80px;
+	float: left;
+	margin-top: 10px;
+	height: 20px;
+	width: 100px;
+	background:#EDC311;
+	color: black;
+	border-radius: 30px;
+}
+.back
+	{
+		height: 50px;
+		width:50px;
+		background:url(../images/logo/home-1.jpg);
+		border-radius: 50%;
+		border-bottom:solid 5px black;
+		margin-top:20px;
+	}

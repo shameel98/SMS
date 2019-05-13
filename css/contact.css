@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+.container
+{
+	margin: auto;
+	margin-top: 30px;
+	height: 600px;
+	width: 600px;
+	transition: 0.5s ease;
+}
+.container:hover
+{
+	background: url(../images/patterns/congruent_outline.png);
+	border: dotted #339F4C;
+	border-radius: 40px;
+}
+.txtcls, .txtcls2
+{
+border: 2px solid rgb(173, 204, 204);
+height: 70px;
+width: 70px;
+box-shadow: 0px 0px 8px rgb(204, 204, 204) inset;
+transition:500ms all ease;
+padding:3px 3px 3px 3px;
+margin-left:250px;
+	margin-top: 20px;
+	background:url(../images/logo/reg.jpg);
+	text-align: center;
+	border-radius: 50px;
+}
+.txtcls:focus, .txtcls3:focus, .txtcls2:focus
+{
+	height: 40px;
+width:260px;
+transition:500ms all ease;
+padding:3px 32px 3px 3px;
+	margin-left: 150px;
+	background-image: none;
+	box-shadow: 27px 27px 27px 27px rgb(255,255,255) inset;
+	color: black;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.txtcls:hover, .txtcls3:hover,.txtcls2:hover
+{
+	height: 40px;
+width:260px;
+transition:500ms all ease;
+padding:3px 32px 3px 3px;
+	margin-left: 150px;
+	background-image: none;
+	color: grey;
+	font-weight: bolder;
+}
+::-webkit-input-placeholder {
+	opacity: 0;
+}
+
+input:focus::-webkit-input-placeholder {
+	opacity: 0.9;
+	color: black;
+	font-weight: bolder;
+}
+input:hover::-webkit-input-placeholder {
+	opacity: 0.9;
+	color: grey;
+	font-weight: bolder;
+}
+
+
+
+
+.txtcls4:focus
+{
+	height: 100px;
+width:260px;
+transition:500ms all ease;
+padding:3px 32px 3px 3px;
+	margin-left: 150px;
+	background-image: none;
+	box-shadow: 270px 190px 270px 270px rgb(255,255,255) inset;
+	color: black;
+	font-weight: bolder;
+}
+
+.txtcls4:hover
+{
+	height: 100px;
+width:260px;
+transition:500ms all ease;
+padding:3px 32px 3px 3px;
+	margin-left: 150px;
+	background-image: none;
+	color: grey;
+	font-weight: bolder;
+}
+
+.txtcls3
+{
+border: 2px solid rgb(173, 204, 204);
+height: 70px;
+width: 70px;
+box-shadow: 0px 0px 8px rgb(204, 204, 204) inset;
+transition:500ms all ease;
+padding:3px 3px 3px 3px;
+margin-left:250px;
+	margin-top: 20px;
+	background:url(../images/logo/phone.jpg);
+	text-align: center;
+	border-radius: 50px;
+}
+.txtcls4
+{
+border: 2px solid rgb(173, 204, 204);
+height: 70px;
+width: 70px;
+box-shadow: 0px 0px 8px rgb(204, 204, 204) inset;
+transition:500ms all ease;
+padding:3px 3px 3px 3px;
+margin-left:250px;
+	margin-top: 20px;
+	background:url(../images/logo/idea.jpg);
+	text-align: center;
+	border-radius: 50px;
+}
+.txtcls2
+{
+border: 2px solid rgb(173, 204, 204);
+height: 70px;
+width: 70px;
+box-shadow: 0px 0px 8px rgb(204, 204, 204) inset;
+transition:500ms all ease;
+padding:3px 3px 3px 3px;
+margin-left:250px;
+	margin-top: 20px;
+	background:url(../images/logo/mail.jpg);
+	text-align: center;
+	border-radius: 50px;
+}
+.subbut
+{
+	border: 2px solid rgb(173, 204, 204);
+height: 120px;
+width: 120px;
+transition:500ms all ease;
+padding:3px 3px 3px 3px;
+margin-left:230px;
+	margin-top: 40px;
+	text-align: center;
+	border-radius: 70px;
+	font-weight: bolder;
+	font-size: 24px;
+	background: url(../images/logo/FINAL2.jpg);
+}
+.subbut:hover
+{
+	color:none;
+	background:url(../images/logo/FINAL.jpg);
+}
